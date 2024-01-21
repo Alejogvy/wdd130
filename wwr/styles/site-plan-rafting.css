@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald&family=optional-2nd-Roboto&display=swap");
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+</style>
 :root {
     --primary-color: #3D5A80;
     --secondary-color: #98C1D9;
