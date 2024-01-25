@@ -47,8 +47,11 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    /* You most likely will have other declarations here*/
-    float: right;
+}
+
+main img {
+      /* You most likely will have other declarations here*/
+      float: right;
 }
 
 p {
@@ -68,7 +71,12 @@ footer {
     background-color: #ddd;
     color: #000;
 }
-aside {
+/*aside {
     width: 20em;
     text-align: center;
+}*/
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
