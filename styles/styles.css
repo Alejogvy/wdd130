@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -18,7 +23,7 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 36px;
 }
 main {
     max-width: 840px;
@@ -42,6 +47,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    /* You most likely will have other declarations here*/
+    float: right;
 }
 
 p {
@@ -51,5 +58,17 @@ p {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
+    text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside {
+    width: 20em;
     text-align: center;
 }
