@@ -10,10 +10,12 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 h1 {
     color: steelblue;
+    display: block;
+    padding: 10px;
 }
 img {
     width: 150px;
@@ -21,12 +23,15 @@ img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 10px;
 }
 p {
     padding: 36px;
 }
 main {
-    max-width: 840px;
+    max-width: 600px;
+    text-align: justify;
+    margin: 1px;
 }
 
 aside {
@@ -42,11 +47,13 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    
 }
 
 main img {
     width: 150px;
     height: auto;
+    position: relative;
 }
 
 main img {
@@ -71,13 +78,18 @@ footer {
     background-color: #ddd;
     color: #000;
 }
+ul {
+    position: relative;
+    width: 20rem;
+}
 aside {
     position: relative;
-    width: 20em;
+    width: 20rem;
     text-align: center;
 }
 aside h2 {
     position: absolute;
-    top: -20px;
-    left: 140px;
+    top: 0;
+    left: 120px;
+    text-align: right;
 }
