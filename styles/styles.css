@@ -72,11 +72,12 @@ footer {
     color: #000;
 }
 aside {
+    position: relative;
     width: 20em;
     text-align: center;
 }
 aside h2 {
     position: absolute;
-    top: 580px;
+    top: -20px;
     left: 140px;
 }
