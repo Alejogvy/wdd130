@@ -12,7 +12,7 @@
     --nav-hover-link-color: #E0FBFC;
     --nav-hover-background-color: #EE6C4D;
 }
-/* Resetear márgenes y rellenos */
+/* Reset margins and paddings */
 body, h1, p {
     margin: 0;
     padding: 0;
@@ -29,8 +29,13 @@ body {
 
 header {
     background-color: var(--nav-background-color);
-    padding: 10px;
+    padding: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    position: relative;
+    margin: 0 auto;
 }
 
 nav.attribute a {
@@ -45,22 +50,23 @@ main {
     padding: 20px;
 }
 
-/* Estilo general para el contenedor hero */
+/* General style for the hero container */
 .hero {
     position: relative;
     margin: 1rem auto;
-	background-color: #eee;
-	padding: 1rem;
-	border: 1px solid rgba(0,0,0,.1);
+    background-color: #eee;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
 }
 
-/* Estilo para la imagen dentro de .hero */
+/* Style for the image inside .hero */
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-/* Estilo específico para la imagen con la clase "special-image" dentro de .hero */
+
+/* Specific style for the image with the class "special-image" inside .hero */
 .hero .special-image img {
     width: 60%;
     position: absolute;
@@ -68,42 +74,42 @@ main {
     left: 260px;
 }
 
-/* Estilo para el título h1 dentro de .hero */
+/* Style for the h1 title inside .hero */
 .hero h1 {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Ajusta el color del texto según tu diseño */
+    color: #fff; /* Adjust the text color according to your design */
     font-family: 'Oswald', sans-serif;
-    font-size: 2em; /* Ajusta el tamaño del texto según tu diseño */
+    font-size: 2em; /* Adjust the text size according to your design */
     text-align: center;
 }
 
-/* Estilo para el artículo dentro de .hero */
+/* Style for the article inside .hero */
 .hero article {
     position: absolute;
     top: 40%;
     left: 40%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background with opacity */
     padding: 20px;
-    color: #fff; /* Ajusta el color del texto según tu diseño */
+    color: #fff; /* Adjust the text color according to your design */
 }
 
-/* Estilo para la imagen dentro de article */
+/* Style for the image inside article */
 .hero article img {
     float: left;
-    margin-right: 10px; /* Espacio entre la imagen y el párrafo */
+    margin-right: 10px; /* Space between the image and the paragraph */
 }
 
-/* Estilo para el párrafo dentro de article */
+/* Style for the paragraph inside article */
 .hero article p {
     margin: 10px auto;
     position: relative;
     object-fit: cover;
 }
 
-/* Agrega otros estilos según sea necesario */
+/* Add other styles as needed */
 
 h1 {
     font-family: var(--heading-font);
@@ -117,32 +123,28 @@ p {
 }
 
 section {
-    text-align: center; /* Centra el contenido horizontalmente */
-	margin: 1rem auto;
-	background-color: #eee;
-	padding: 1rem;
-	border: 1px solid rgba(0,0,0,.1);
+    text-align: center; /* Center content horizontally */
+    margin: 1rem auto;
+    background-color: #eee;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
 }
-
 
 section img {
-    max-width: 100%; /* Ajusta el ancho máximo al contenedor */
-    height: auto; /* Mantiene la proporción de aspecto original */
-    margin: 10px; /* Agrega espacio alrededor de cada imagen */
+    max-width: 100%; /* Set maximum width to the container */
+    height: auto; /* Maintain original aspect ratio */
+    margin: 10px; /* Add space around each image */
 }
-
 
 footer {
     background-color: var(--primary-color);
     color: #fff;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .sociallinks a img {
-    width: 20px; /* Establece el ancho deseado */
-    height: 20px; /* Establece la altura deseada */
+    width: 20px; /* Set the desired width */
+    height: 20px; /* Set the desired height */
 }
 
-
-/* Otros estilos según sea necesario */
