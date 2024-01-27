@@ -36,7 +36,7 @@ header img {
     margin: 0 auto;
 }
 
-nav.attribute a {
+nav a {
     margin-right: 10px;
     text-decoration: none;
     color: var(--nav-link-color);
