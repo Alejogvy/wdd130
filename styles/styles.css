@@ -16,7 +16,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff; /% %/
+    color: #fff;
 }
 h1 {
     color: steelblue;
@@ -34,6 +34,7 @@ img {
 }
 p {
     padding: 36px;
+    margin-block: 10px;
 }
 main {
     text-align: justify;
