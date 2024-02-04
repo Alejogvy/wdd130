@@ -43,7 +43,7 @@ nav a {
 }
 
 main {
-    max-width: 800px;
+    max-width: 840px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -110,9 +110,9 @@ main {
 /* Add other styles as needed */
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: var(--accent2-color);
+    color: steelblue;
+    display: block;
+    padding: 10px;
 }
 
 p {
@@ -145,3 +145,86 @@ footer {
     height: 20px; /* Set the desired height */
 }
 
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Logo on the left, navigation on the right */
+    align-items: center;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 535px 1fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    margin-left: 20px; /* Adjust the left margin of the logo as necessary */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align navigation to the right */
+}
+
+nav a {
+    margin-left: 10px; /* Adjust the left margin of navigation links as needed */
+    text-decoration: none;
+    color: var(--nav-link-color);
+    font-size: 26px;
+    padding: 16px;
+} 
+
+main {
+    display: flex;
+    flex-direction: column; /* Place the elements vertically */
+    align-items: center; /* Center horizontally on the X axis */
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to be wrapped if they don't fit on a line */
+    justify-content: space-around; /* Even spacing between images */
+    text-align: center;
+}
+
+section img {
+    flex: 0 0 48%; /* Makes images take up 48% of the container */
+    margin: 1%; /* Space between images */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Even spacing between elements */
+    align-items: center; /* Center vertically on the Y axis */
+}
+
+.sociallinks a {
+    margin-right: 10px;
+}
+
+figure .raf {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 520px;
+    margin: auto;
+  }
+  
+ .raf img {
+    max-width: 520px;
+    max-height: auto;
+  }
+  
+ .raf figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
