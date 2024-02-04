@@ -207,21 +207,21 @@ footer {
     margin-right: 10px;
 }
 
-figure .raf {
+figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 520px;
+    max-width: 620px;
     margin: auto;
   }
   
- .raf img {
-    max-width: 520px;
-    max-height: auto;
+ figure img {
+    max-width: 620px;
+    max-height: none;
   }
   
- .raf figcaption {
+ figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
