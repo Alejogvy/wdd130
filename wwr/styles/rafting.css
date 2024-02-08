@@ -36,10 +36,46 @@ header img {
     margin: 0 auto;
 }
 
-nav a {
+.buttons {
+    display: flex;
+    white-space: nowrap;
+}
+
+.buttons button {
+    display: inline-block; /* Cambia a inline-block */
+    border: none;
+    background: #98C1D9;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
     margin-right: 10px;
-    text-decoration: none;
-    color: var(--nav-link-color);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none; /* Evitar subrayado en los botones */
+}
+
+.buttons button a {
+    color: white; /* Color blanco para los enlaces */
+    text-decoration: none; /* Evitar subrayado en los enlaces */
+}
+
+.buttons button.active {
+    background-color: #3D5A80;
+}
+
+.buttons button:hover {
+    background-color: #7BA4C9;
+}
+
+.neumorphic {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.neumorphic:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -6px -6px 12px rgba(255, 255, 255, 0.5);
 }
 
 main {
@@ -109,6 +145,33 @@ main {
 
 /* Add other styles as needed */
 
+.history-section {
+    text-align: center;
+}
+
+.history-section h2 {
+    margin-bottom: 20px;
+}
+
+.history-section .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.history-section .content img {
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+
+.history-section .left-paragraph,
+.history-section .right-paragraph {
+    flex: 1;
+    max-width: 50%;
+    margin: 0 10px;
+}
+
 h1 {
     color: steelblue;
     display: block;
@@ -116,7 +179,9 @@ h1 {
 }
 
 p {
-    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-bottom: 0 auto;
 }
 
 section {
@@ -145,7 +210,6 @@ footer {
     height: 20px; /* Set the desired height */
 }
 
-
 .grid {
     display: grid;
     grid-template-columns: 1fr auto; /* Logo on the left, navigation on the right */
@@ -155,7 +219,7 @@ footer {
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 535px 1fr 2fr;
+    grid-template-columns: 900px 1fr 2fr;
     justify-content: space-between;
     align-items: center;
     background-color: var(--nav-background-color);
@@ -166,19 +230,6 @@ header img {
     margin-left: 20px; /* Adjust the left margin of the logo as necessary */
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end; /* Align navigation to the right */
-}
-
-nav a {
-    margin-left: 10px; /* Adjust the left margin of navigation links as needed */
-    text-decoration: none;
-    color: var(--nav-link-color);
-    font-size: 26px;
-    padding: 16px;
-} 
-
 main {
     display: flex;
     flex-direction: column; /* Place the elements vertically */
@@ -186,21 +237,36 @@ main {
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap; /* Allows images to be wrapped if they don't fit on a line */
-    justify-content: space-around; /* Even spacing between images */
     text-align: center;
+    max-width: 800px; /* Ajusta el ancho máximo del contenedor */
+    margin: 10 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega relleno al contenedor */
 }
 
-section img {
-    flex: 0 0 48%; /* Makes images take up 48% of the container */
-    margin: 1%; /* Space between images */
+h2 {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row-reverse; /* Organiza las figuras de derecha a izquierda */
+    justify-content: center; /* Centra horizontalmente las figuras */
+    flex-wrap: wrap; /* Permite que las figuras se envuelvan si no caben en una línea */
+}
+
+figure {
+    text-align: center; /* Centra el contenido dentro de la figura */
+    margin: 0 10px; /* Ajusta el margen entre las figuras */
+}
+
+figcaption {
+    margin-top: 5px; /* Ajusta el margen superior de las leyendas */
 }
 
 footer {
     display: flex;
     justify-content: space-between; /* Even spacing between elements */
-    align-items: center; /* Center vertically on the Y axis */
+    align-items: right; /* Center vertically on the Y axis */
 }
 
 .sociallinks a {
@@ -217,8 +283,10 @@ figure {
   }
   
  figure img {
-    max-width: 620px;
+    max-width: 250px;
     max-height: none;
+    margin: 0 auto;
+    padding: 0 auto;
   }
   
  figcaption {
