@@ -42,7 +42,7 @@ header img {
 }
 
 .buttons button {
-    display: inline-block; /* Cambia a inline-block */
+    display: inline-block; /* Change an inline-block */
     border: none;
     background: #98C1D9;
     color: white;
@@ -53,12 +53,12 @@ header img {
     font-size: 16px;
     font-weight: bold;
     position: relative;
-    text-decoration: none; /* Evitar subrayado en los botones */
+    text-decoration: none; /* Avoid button underlining */
 }
 
 .buttons button a {
-    color: white; /* Color blanco para los enlaces */
-    text-decoration: none; /* Evitar subrayado en los enlaces */
+    color: white; /* White color for links */
+    text-decoration: none; /* Avoid underlining links */
 }
 
 .buttons button.active {
@@ -238,9 +238,9 @@ main {
 
 section {
     text-align: center;
-    max-width: 800px; /* Ajusta el ancho máximo del contenedor */
-    margin: 10 auto; /* Centra el contenedor horizontalmente */
-    padding: 20px; /* Agrega relleno al contenedor */
+    max-width: 800px; /* Adjusts the maximum width of the container */
+    margin: 10 auto; /* Centers the container horizontally */
+    padding: 20px; /* Add filler to the container */
 }
 
 h2 {
@@ -249,18 +249,18 @@ h2 {
 
 .image-container {
     display: flex;
-    flex-direction: row-reverse; /* Organiza las figuras de derecha a izquierda */
-    justify-content: center; /* Centra horizontalmente las figuras */
-    flex-wrap: wrap; /* Permite que las figuras se envuelvan si no caben en una línea */
+    flex-direction: row-reverse; /* Arrange the figures from right to left */
+    justify-content: center; /* Horizontally centers the figures */
+    flex-wrap: wrap; /* Allows figures to wrap if they do not fit on a line */
 }
 
 figure {
-    text-align: center; /* Centra el contenido dentro de la figura */
-    margin: 0 10px; /* Ajusta el margen entre las figuras */
+    text-align: center; /* Centers the content within the figure */
+    margin: 0 10px; /* Adjusts the margin between figures */
 }
 
 figcaption {
-    margin-top: 5px; /* Ajusta el margen superior de las leyendas */
+    margin-top: 5px; /* Adjusts the top margin of the captions */
 }
 
 footer {
