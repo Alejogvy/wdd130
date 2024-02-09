@@ -53,7 +53,7 @@ label, input, button, select, textarea, number {
 }
 
 label {
-    text-align: right;
+    text-align: left;
     padding-right: 1rem;
 }
 
@@ -80,15 +80,6 @@ button {
 
 button:hover {
     background-color: darkgreen;
-}
-
-footer {
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8rem;
-    color: #777;
-    border-top: 1px solid #ccc;
 }
 
 .form-item {
