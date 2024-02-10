@@ -61,14 +61,6 @@ header img {
     text-decoration: none; /* Avoid underlining links */
 }
 
-.buttons button.active {
-    background-color: #3D5A80;
-}
-
-.buttons button:hover {
-    background-color: #7BA4C9;
-}
-
 .neumorphic {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.5);
     transition: box-shadow 0.3s ease;
@@ -245,7 +237,7 @@ main {
 section {
     text-align: center;
     max-width: 800px; /* Adjusts the maximum width of the container */
-    margin: unit 10 auto; /* Centers the container horizontally */
+    margin: auto; /* Centers the container horizontally */
     padding: 20px; /* Add filler to the container */
 }
 
@@ -272,7 +264,7 @@ figcaption {
 footer {
     display: flex;
     justify-content: space-between; /* Even spacing between elements */
-    align-items:center; /* Center vertically on the Y axis */
+    align-items: center; /* Center vertically on the Y axis */
 }
 
 .sociallinks a {
@@ -292,7 +284,7 @@ figure {
     max-width: 250px;
     max-height: none;
     margin: 0 auto;
-    padding: 0%;
+    padding: 10%;
   }
   
  figcaption {
