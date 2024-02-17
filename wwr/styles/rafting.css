@@ -345,3 +345,19 @@ button:hover {
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
+
+.packages, .packages1 {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    
+}
+.packages p, .packages1 p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
