@@ -87,12 +87,12 @@ footer {
 }
 ul {
     position: relative;
-    width: 20rem;
+    width: 12rem;
 }
 
 li {
-    position: relative;
-    margin: 1%;
+    position: static;
+    margin: 3%;
     padding: 1%;
 }
 
