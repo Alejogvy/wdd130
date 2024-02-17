@@ -90,6 +90,12 @@ ul {
     width: 20rem;
 }
 
+li {
+    position: relative;
+    margin: 5%;
+    padding: 1%;
+}
+
 aside {
     position: relative;
     width: 20rem;
