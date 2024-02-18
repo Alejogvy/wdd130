@@ -64,7 +64,6 @@ main img {
 }
 
 main img {
-      /* You most likely will have other declarations here*/
       float: right;
 }
 
@@ -77,7 +76,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selectors */
+
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -91,7 +90,7 @@ ul {
 }
 
 li {
-    position: static;
+    position: relative;
     margin: 3%;
     padding: 1%;
 }
