@@ -361,3 +361,23 @@ button:hover {
     border: none;
     text-align: center;
 }
+.packages2 {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+.packages2 p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: list-item;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+.packages2 h1, h2 {
+    text-align: center;
+}
